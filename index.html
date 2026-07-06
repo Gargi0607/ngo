@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InAmigos Foundation</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #ffffff;
+    line-height: 1.6;
+  }
+  header {
+    background: #2e7d32;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+  }
+  nav a {
+    color: #ffffff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    background: #f1f8e9;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero h2 {
+    margin-top: 0;
+    color: #2e7d32;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 24px;
+    background: #2e7d32;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  section h2 {
+    color: #2e7d32;
+    border-bottom: 2px solid #2e7d32;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 18px;
+    background: #fafafa;
+  }
+  .project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background: #e0e0e0;
+  }
+  .project-card h3 {
+    margin: 0 0 8px 0;
+    color: #2e7d32;
+  }
+  .project-card p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+  }
+  .stats div {
+    background: #f1f8e9;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  .stats strong {
+    display: block;
+    font-size: 28px;
+    color: #2e7d32;
+  }
+  table.about-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+  }
+  table.about-table td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+  }
+  table.about-table td:first-child {
+    font-weight: bold;
+    background: #f1f8e9;
+    width: 160px;
+  }
+  address {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  footer {
+    background: #2e7d32;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>InAmigos Foundation</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Together We Can Make a Difference</h2>
+  <p>Creating positive social impact through education, environment, women empowerment, animal welfare and community development.</p>
+  <a class="btn" href="#contact">Join Us</a>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>InAmigos Foundation was founded on 23 September 2020 by Mr. Govind Shukla, Founder & CEO. It is a Section 8 non-profit organization, licensed by the Central Government and headquartered in Bilaspur, Chhattisgarh. The foundation runs six programs across roughly 28 states, covering food security, education, environmental conservation, women's empowerment, animal welfare and community development.</p>
+  <table class="about-table">
+    <tr><td>Founded</td><td>23 September 2020</td></tr>
+    <tr><td>Founder</td><td>Mr. Govind Shukla, Founder & CEO</td></tr>
+    <tr><td>Status</td><td>Section 8 Non-Profit &middot; 80G &amp; 12A Certified &middot; CSR-1 Registered</td></tr>
+    <tr><td>Recognition</td><td>NITI Aayog / NGO Darpan Listed &middot; ISO 9001:2015 Certified</td></tr>
+    <tr><td>Reach</td><td>~28 states across India, headquartered in Bilaspur, Chhattisgarh</td></tr>
+  </table>
+</section>
+
+<section id="projects">
+  <h2>Our Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <img src="images/seva.jpg" alt="SEVA food distribution drive">
+      <h3>SEVA</h3>
+      <p>Providing food and clothing to the underprivileged. 50,000+ meals distributed so far.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/bachpanshala.jpg" alt="Bachpanshala classroom">
+      <h3>Bachpanshala</h3>
+      <p>Ensuring quality education, study materials and mentorship for underprivileged children.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/jeev.jpg" alt="Jeev animal feeding drive">
+      <h3>Jeev</h3>
+      <p>Daily feeding and care for animals across our project areas.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/udaan.jpg" alt="Udaan skill development workshop">
+      <h3>Udaan</h3>
+      <p>Skill development and financial literacy that help women become self-reliant.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/prakriti.jpg" alt="Prakriti tree plantation drive">
+      <h3>Prakriti</h3>
+      <p>Environmental conservation and sustainability. 20,000+ trees planted so far.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/vikas.jpg" alt="Vikas internship training session">
+      <h3>Vikas</h3>
+      <p>Enhancing employability through skill development. 30,000+ interns trained.</p>
+    </div>
+  </div>
+</section>
+
+<section id="impact">
+  <h2>Impact</h2>
+  <div class="stats">
+    <div><strong>50,000+</strong>Meals distributed</div>
+    <div><strong>20,000+</strong>Trees planted</div>
+    <div><strong>30,000+</strong>Interns trained</div>
+    <div><strong>50+</strong>Animals fed daily</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <address>
+    Email: <a href="mailto:support@inamigosfoundation.org.in">support@inamigosfoundation.org.in</a><br>
+    Phone: <a href="tel:+916267309902">+91 62673 09902</a><br>
+    Address: Ward No. 5, Gram Post, Sipat Ujwal Nagar, Bilaspur, Chhattisgarh &ndash; 495555
+  </address>
+</section>
+
+<footer>
+  &copy; 2026 InAmigos Foundation
+</footer>
+
+</body>
+</html>
